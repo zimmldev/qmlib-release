@@ -33,11 +33,11 @@ Choose a subscription plan that suits you:
 
 <p align="center">
   <a href="https://buy.stripe.com/bJe8wPcbH2UN2hafIA6Na01" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Subscribe_Monthly-blue?style=for-the-badge&logo=stripe&logoColor=white" alt="Monthly Subscription" />
+    <img src="https://img.shields.io/badge/Subscribe_Yearly-blue?style=for-the-badge&logo=stripe&logoColor=white" alt="Yearly Subscription" />
   </a>
   &nbsp;&nbsp;
   <a href="https://buy.stripe.com/00w14n5NjgLDf3W53W6Na00" target="_blank" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Subscribe_Yearly-green?style=for-the-badge&logo=stripe&logoColor=white" alt="Yearly Subscription" />
+    <img src="https://img.shields.io/badge/Subscribe_Monthly-green?style=for-the-badge&logo=stripe&logoColor=white" alt="Monthly Subscription" />
   </a>
 </p>
 
