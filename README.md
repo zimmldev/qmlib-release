@@ -43,15 +43,12 @@ Choose a subscription plan that suits you:
 
 Simply click the button above to purchase a monthly or yearly license.
 
-### System Requirements
+For licensing details or inquiries, please contact: loiczimm@gmail.com.
+
+## System Requirements
 - **Qt Version:** 6.7+  
 - **CMake Version:** 3.21 or higher  
 - **Supported Platforms:** Linux, macOS, Windows, iOS, Android, WearOS, watchOS, WebAssembly (with some module limitations).
-
-## Licensing
-The binaries provided here are distributed under QMLib's **commercial license**. By downloading or using these binaries, you agree to comply with the licensing terms outlined in the QMLib documentation.
-
-For licensing details or inquiries, please contact: loiczimm@gmail.com.
 
 ## Contributing
 This repository is for binary distribution only. If you’d like to contribute to QMLib examples or report issues, visit the [Examples Repository](https://github.com/zimmldev/qmlib-examples).
