@@ -45,6 +45,64 @@ Simply click the button above to purchase a monthly or yearly license.
 
 For licensing details or inquiries, please contact: loiczimm@gmail.com.
 
+## Using a License with QMLib
+
+To unlock the full features of QMLib, you need a valid license key and signature. Follow the steps below to set up your license.
+
+---
+
+### 1. Purchase a License
+
+Click the **Subscribe** buttonabove to purchase a license.
+After completing the purchase, a license key will be sent to the email address you provided.
+
+---
+
+### 2. Generate a Signature
+
+Using the license key, you need to generate a signature in your CMake build system. Here’s how:
+
+```cmake
+# Set the license key
+set(LICENSE_KEY "<license_key>") # Replace <license_key> with your actual license key
+
+# Call the validate_license function and store the result
+validate_license("${LICENSE_KEY}" LICENSE_SIGNATURE)
+```
+
+### 3. Configure License in CMake
+Add the license key and signature to your build definitions:
+
+```cmake
+# Add definitions for the key and signature
+add_definitions(-DQMLIB_KEY="${LICENSE_KEY}")
+add_definitions(-DQMLIB_SIGNATURE="${LICENSE_SIGNATURE}")
+```
+
+### 4. Use the License in C++ Code
+Set up the license in your application code as follows:
+
+```Cpp
+#include <license/QMLib.h>
+
+int main() {
+   ...
+   
+   // Initialize the license
+   QMLib::setLicense(QMLIB_KEY, QMLIB_SIGNATURE);
+
+   ...
+}
+```
+  
+Ensure that the QMLib target is linked in your CMake configuration:
+
+```cmake
+target_link_libraries(your_target_name PRIVATE QMLib::QMLib)
+```
+
+By following these steps, your application will be properly licensed and ready to utilize the full capabilities of QMLib.
+
 ## System Requirements
 - **Qt Version:** 6.7+  
 - **CMake Version:** 3.21 or higher  
