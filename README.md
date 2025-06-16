@@ -53,7 +53,7 @@ To unlock the full features of QMLib, you need a valid license key and signature
 
 ### 1. Purchase a License
 
-Click the **Subscribe** buttonabove to purchase a license.
+Click the **Subscribe** button above to purchase a license.
 After completing the purchase, a license key will be sent to the email address you provided.
 
 ---
@@ -100,6 +100,11 @@ Ensure that the QMLib target is linked in your CMake configuration:
 ```cmake
 target_link_libraries(your_target_name PRIVATE QMLib::QMLib)
 ```
+
+By following these steps, your application will be properly licensed and ready to utilize the full capabilities of QMLib.
+
+### Note on License Checks
+All license checks with the server are performed only at compile time. The generated software does not perform any server pings or license checks at runtime. This ensures that the application operates independently without requiring an active internet connection after compilation.
 
 By following these steps, your application will be properly licensed and ready to utilize the full capabilities of QMLib.
 
